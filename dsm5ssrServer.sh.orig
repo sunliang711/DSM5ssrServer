@@ -1,9 +1,0 @@
-#!/bin/sh
-<<<<<<< HEAD
-dest=/usr/local/etc/rc.d
-cd $dest/ssr
-$(which python) server.py -c config.server.json > ssrserver.log 2>&1 &
-=======
-cd /root/DSM5ssrServer/ssr
-/usr/bin/python server.py -c config.server.json > ssrserver.log 2>&1 &
->>>>>>> 40aeb1e8306b345bf7c98bbfa457fd440c8ea29b
